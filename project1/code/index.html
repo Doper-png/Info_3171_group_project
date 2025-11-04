@@ -399,8 +399,143 @@
 
 			<!-- elements: Pedro -->
 <section id="elements" class="hidden">
-	
+  <h1 class="p_section-title">UI Elements</h1>
+
+  <div class="p_elements-box-group">
+    <h2>Buttons</h2>
+    <div class="p_elements-grid">
+      <div class="p_elements-item">
+        <div class="p_subtitle">Button Variants</div>
+        <div class="p_elements-row">
+          <button class="btn-primary">Primary</button>
+          <button class="btn-secondary">Secondary</button>
+          <button class="btn-outline">Outline</button>
+          <button class="btn-ghost">Ghost</button>
+          <button class="btn-destructive">Destructive</button>
+          <button class="btn-link">Link</button>
+        </div>
+      </div>
+
+      <div class="p_elements-item">
+        <div class="p_subtitle">Button Sizes</div>
+        <div class="p_elements-row">
+          <button class="btn-primary btn-small">Small</button>
+          <button class="btn-primary btn-default">Default</button>
+          <button class="btn-primary btn-large">Large</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="p_elements-box-group">
+    <h2>Form Inputs</h2>
+    <div class="p_elements-grid">
+      <div class="p_elements-item">
+        <div class="p_subtitle">Default input</div>
+        <input class="input-default" placeholder="Enter text..." />
+
+        <div class="p_subtitle" style="margin-top:12px">Disabled input</div>
+        <input class="input-default" placeholder="Disabled..." disabled />
+
+        <div class="p_subtitle" style="margin-top:12px">Text area</div>
+        <textarea class="input-default" rows="3" placeholder="Enter longer text..."></textarea>
+      </div>
+
+      <div class="p_elements-item">
+        <div class="p_subtitle">Select</div>
+        <select class="input-default">
+          <option>Select an option</option>
+          <option>Option 1</option>
+          <option>Option 2</option>
+        </select>
+
+        <div class="p_subtitle" style="margin-top:12px">Selections (Checkboxes)</div>
+        <div class="p_checkbox-list">
+          <label><input type="checkbox" /> Option A</label><br />
+          <label><input type="checkbox" /> Option B</label>
+        </div>
+
+        <div class="p_subtitle" style="margin-top:12px">Radio Buttons</div>
+        <div class="p_radio-list">
+          <label><input type="radio" name="p_radio_ex" /> Option 1</label><br />
+          <label><input type="radio" name="p_radio_ex" /> Option 2</label>
+        </div>
+
+        <div class="p_subtitle" style="margin-top:12px">Switch</div>
+        <label class="switch" style="margin-top:6px;">
+          <input type="checkbox" />
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <div class="p_elements-box-group">
+    <h2>Badges</h2>
+    <div class="p_elements-grid">
+      <div class="p_elements-item">
+        <div class="p_subtitle">Badges</div>
+        <div class="p_badge-row">
+          <span class="badge-primary">Primary</span>
+          <span class="badge-secondary">Secondary</span>
+          <span class="badge-outline">Outline</span>
+          <span class="badge-destructive">Destructive</span>
+          <span class="badge-success">Success</span>
+          <span class="badge-warning">Warning</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="p_elements-box-group">
+    <h2>Tables</h2>
+    <div class="p_elements-grid">
+      <div class="p_elements-item">
+        <table class="simple-table">
+          <thead>
+            <tr><th>Name</th><th>Status</th><th>Role</th><th>Actions</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>John Doe</td><td>Active</td><td>Admin</td><td><button class="btn-outline">Edit</button></td></tr>
+            <tr><td>Jane Smith</td><td>Pending</td><td>User</td><td><button class="btn-outline">Edit</button></td></tr>
+            <tr><td>Bob Johnson</td><td>Inactive</td><td>User</td><td><button class="btn-outline">Edit</button></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="p_elements-box-group">
+    <h2>Form Example</h2>
+    <div class="p_elements-grid">
+      <div class="p_elements-item">
+        <form class="simple-form">
+          <label class="p_subtitle">Full Name</label>
+          <input class="input-default" placeholder="John Doe" />
+
+          <label class="p_subtitle">Email</label>
+          <input class="input-default" type="email" placeholder="john@example.com" />
+
+          <label class="p_subtitle">Role</label>
+          <select class="input-default">
+            <option>Select a role</option>
+            <option>Admin</option>
+            <option>User</option>
+          </select>
+
+          <label class="p_subtitle">Message</label>
+          <textarea class="input-default" rows="3" placeholder="Enter your message..."></textarea>
+
+          <div style="margin-top:10px;">
+            <button class="btn-primary">Submit</button>
+			<button class="btn-secondary">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 </section>
+
 
 
 			<!-- charts: will be added after finish design of the chart, totally 9 charts image here -->
